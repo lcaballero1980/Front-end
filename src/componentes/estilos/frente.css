@@ -1,0 +1,31 @@
+.container-frente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container-frente img {
+  max-width: 100%;
+  margin-top: 5px;
+}
+
+.container-frente button a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-frente button {
+  align-items: center;
+  background-color: #007bff;
+  padding: 10px 15px;
+  font-size: 16pt;
+  border: none;
+  cursor: pointer;
+}
+
+.container-frente button:hover {
+  background: #0056b3;
+}

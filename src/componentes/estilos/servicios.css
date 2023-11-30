@@ -1,0 +1,21 @@
+/* .servicio{
+    text-align: center;
+} */
+.contenedorPrincipal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px; /* Ajusta la altura según sea necesario */
+  }
+  
+  .cuadro {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db; /* Color de fondo, ajusta según desees */
+    color: #fff; /* Color del texto, ajusta según desees */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2980b9; /* Borde, ajusta según desees */
+    border-radius: 5px; /* Bordes redondeados, ajusta según desees */
+  }
